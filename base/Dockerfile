@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.7.10-slim-buster
 LABEL maintainer="Sphinx Team <https://www.sphinx-doc.org/>"
 
 WORKDIR /docs
